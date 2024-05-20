@@ -1,0 +1,87 @@
+/* Estilos CSS */
+
+/* Estilos gerais */
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    background-color: #0e0e0e;
+}
+
+body {
+    color: #ffffff;
+}
+
+/* Estilos da caixa de login */
+#caixa_de_login {
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    border: 3px solid rgb(50, 50, 182);
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#caixa_de_login input {
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: #2c2c2c;
+    padding: 0 10px;
+}
+
+/* Estilos do botão */
+button {
+    margin-top: 10px;
+    background-color: rgb(50, 50, 182);
+    border-radius: 3px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/* Espaçamento dos campos de entrada */
+input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Estilos do texto "Ainda não tem uma conta?" */
+#conta {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* Estilos do link "Criar conta" */
+#criar {
+    color: rgb(50, 50, 182);
+}
+
+a:link{
+    color: rgb(50, 50, 182);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(50, 50, 182);
+}
+
+hr {
+    size: 0px;
+    border: 1px solid rgb(124, 124, 124);
+}
