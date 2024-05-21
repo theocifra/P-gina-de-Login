@@ -47,18 +47,34 @@ button {
     background-color: rgb(50, 50, 182);
     border-radius: 3px;
     border: none;
-    width: 250px;
+    width: 270px;
     height: 40px;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 17px;
+    transition: 700ms;
+}
+
+button:hover {
+    font-size: 19px;
+    cursor: pointer;
 }
 
 /* Espaçamento dos campos de entrada */
 input {
     margin-bottom: 5px;
     margin-top: 5px;
+    color: white;
+}
+
+input:focus {
+    border: 1px solid rgb(43, 43, 255);
+    outline: none;
+}
+input:hover {
+    border: 1px solid rgb(43, 43, 255);
+    outline: none;
 }
 
 /* Estilos do texto "Ainda não tem uma conta?" */
@@ -75,6 +91,11 @@ input {
 a:link{
     color: rgb(50, 50, 182);
     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(50, 50, 182);
+    text-decoration: underline;
 }
 
 a:visited {
